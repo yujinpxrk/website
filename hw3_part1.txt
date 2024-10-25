@@ -1,4 +1,4 @@
-Link: https://www.yujinpxrk.github.io/website
+Link: https://yujinpxrk.github.io/website/
 
 Styling & Customizations: I used the Open Sans font to give the website a consistent, modern appearance, and applied 
 box-sizing: border-box to simplify layout calculations. To start with a clean design, I set default margin and padding 
