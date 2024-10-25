@@ -1,11 +1,10 @@
 Link: https://yujinpxrk.github.io/website/
 
-Styling & Customizations: I used the Open Sans font to give the website a consistent, modern appearance, and applied 
-box-sizing: border-box to simplify layout calculations. To start with a clean design, I set default margin and padding 
-to zero across all elements. For the body, I chose a white background with dark text, using a line height 
-of 1.6 for smooth readability. The header features a dark background with light text and I added padding
- for better spacing and a bottom border for clear visual separation. Also, I customized the typography to 
-create a clear hierarchy, with centered h1 headings and adjusted h2 sizes for consistency. 
+Styling & Customizations: I used the Open Sans font to give the website a consistent, modern appearance, and 
+applied box-sizing: border-box to simplify layout calculations. To start with a clean design, I set default margin and padding to zero across all elements. For the body, I chose a white background with dark text, using a line height 
+of 1.6 for smooth readability. The header features a dark background with light text and I added padding for 
+better spacing and a bottom border for clear visual separation. Also, I customized the typography to create 
+a clear hierarchy, with centered h1 headings and adjusted h2 sizes for consistency. 
 
 The navigation bar uses flexbox for a centered, evenly spaced layout, and the links have smooth color 
 transitions on hover to indicate interactivity. Sections like .intro and .about are centered, with padding, 
