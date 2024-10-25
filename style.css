@@ -1,57 +1,47 @@
-/* Import Open Sans Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
-/* Reset Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
-    font-family: 'Open Sans', sans-serif; /* Using Open Sans */
-    background-color: #E6E8E6; /* Background color */
-    color: #253237; /* Primary text color */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #253237; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-/* Narrow Body Text Width */
 .intro p, .about p {
-    max-width: 600px; /* Set a narrower maximum width for the text */
-    margin: 0 auto; /* Center the text within its parent container */
+    max-width: 600px; 
+    margin: 0 auto;
+    margin-bottom: 10px
 }
 
-
-/* Centered Header */
 h1.center {
     text-align: center;
     margin-top: 20px;
-    color: #E6E8E6; /* Primary text color */
-    font-weight: 700; /* Bold for headers */
+    color: #E6E8E6;
+    font-weight: 700;
 }
 
-/* Header Styling */
 header {
-    background-color: #253237; /* Dark background */
-    color: #CED0CE; /* Light color for contrast */
+    background-color: #253237;
+    color: #CED0CE;
     padding: 15px 0;
-    border-bottom: 3px solid #5C6B73; /* Subtle border using the updated color */
 }
 
-/* Font Size for Intro Heading */
 .intro h2 {
-    font-size: 2em; /* Larger font size for the intro section */
+    font-size: 2em;
 }
 
-/* Font Size for About Heading */
 .about h2 {
-    font-size: 1.5em; /* Smaller font size for the about section */
+    font-size: 1.5em;
 }
 
-/* Navigation Menu */
 nav ul {
     list-style: none;
     display: flex;
@@ -65,47 +55,37 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #CED0CE; /* Light text */
-    font-weight: 600; /* Medium weight for navigation */
+    color: #CED0CE;
+    font-weight: 600;
     transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #5C6B73; /* Hover effect using the corrected blue-ish color */
+    color: #5C6B73;
 }
 
-/* Sections Styling */
 .intro, .about {
     text-align: center;
-    padding: 30px 15px; /* Adjusted padding for better spacing */
-    background-color: #CED0CE; /* Light background for sections */
+    padding: 30px 15px;
+    background-color: #DCDCDC;
     border-radius: 10px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a card-like feel */
     margin: 20px;
 }
 
-/* Highlighted Keywords */
-p span.keyword {
-    color: #5C6B73; /* Highlight keywords with a blue-ish color */
-    font-weight: 600; /* Slightly bolder */
-}
-
-/* Image Styling */
-/* Circular Image Styling */
 .intro img, .about img {
-    width: 200px; /* Set a consistent width */
-    height: 200px; /* Set a consistent height */
-    object-fit: cover; /* Ensure the image scales correctly inside the circle */
-    border-radius: 50%; /* Make the image circular */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
     margin-top: 10px;
+    margin-bottom: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
 .intro img:hover, .about img:hover {
-    transform: scale(1.05); /* Subtle hover effect */
+    transform: scale(1.05);
 }
 
-/* Unordered List Styling */
 ul {
     list-style-type: square;
     padding: 10px;
@@ -113,48 +93,41 @@ ul {
     display: inline-block;
 }
 
-/* Styling for Awards List */
 .awards-list {
-    margin: 20px auto; /* Center the list */
-    padding-left: 20px; /* Indent the list items */
-    max-width: 600px; /* Limit width to align with other text */
-    text-align: left; /* Align text to the left for better readability */
-    list-style-type: disc; /* Default bullet points */
-    list-style-position: inside; /* Bring bullet points inside the container */
+    margin: 20px auto;
+    padding-left: 20px;
+    max-width: 600px;
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside
 }
 
-/* Adjust List Item Styling */
 .awards-list li {
-    margin-bottom: 8px; /* Add space between each list item */
-    line-height: 1.6; /* Increase line height for readability */
-    font-weight: 500; /* Slightly bolder for emphasis */
+    margin-bottom: 8px;
+    line-height: 1.6;
+    font-weight: 500;
 }
 
-
-/* Footer */
 footer {
-    background-color: #253237; /* Dark background for footer */
-    color: #CED0CE; /* Light text color */
+    background-color: #253237;
+    color: #CED0CE;
     padding: 15px 0;
     text-align: center;
     width: 100%;
     position: relative;
 }
 
-/* Footer Links Styling */
 footer a {
-    color: #FFFFFF; /* Set links in the footer to white */
-    text-decoration: none; /* Remove underline */
-    font-weight: 600; /* Make them slightly bold */
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
     transition: color 0.3s;
 }
 
 footer a:hover {
-    color: #5C6B73; /* Change to blue-ish color on hover */
+    color: #5C6B73; 
 }
 
-
-/* Add Responsiveness */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
